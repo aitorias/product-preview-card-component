@@ -1,0 +1,14 @@
+.imageCard {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.imageCard,
+.imageCard picture {
+  width: 100%;
+}
+
+.image {
+  width: 100%;
+}
