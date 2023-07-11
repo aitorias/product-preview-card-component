@@ -22,6 +22,7 @@
   font-weight: 700;
   font-size: 2rem;
   line-height: 2rem;
+  text-transform: none;
 }
 
 .description {
@@ -54,7 +55,7 @@
   text-decoration: line-through;
 }
 
-.addToCart {
+button.addToCart {
   align-items: center;
   background-color: var(--dark-cyan);
   border: 0;
@@ -66,7 +67,13 @@
   font-weight: 700;
   gap: 10px;
   justify-content: center;
-  padding: 1rem 0;
+  padding: 0.8rem 0;
+}
+
+button.addToCart:active,
+button.addToCart:focus,
+button.addToCart:hover {
+  background-image: linear-gradient(rgb(0 0 0 / 50%) 0 0);
 }
 
 @media screen and (min-width: 768px) {
